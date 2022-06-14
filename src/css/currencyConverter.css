@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.container{
+    width: 400px;
+    background-color: #352176;
+    padding: 20px;
+}
+.currencyPanel h1{
+    color: #352176;
+    margin-bottom: 20px;
+}
+.Dropdown-placeholder{
+    color: #fff;
+}
+.currencyPanel {
+height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+text-align: center;
+flex-direction: column;
+padding-top: 50px;
+}
+.heading{
+font-size: 35px;
+}
+
+input{
+padding-left: 5px;
+font-size: 20px;
+height: 36px;
+}
+.middle,.right{
+width: 120px;
+}
+.switch{
+padding: 5px;
+margin-top: 25px;
+background-color:#f2c010;
+border-radius: 50%;
+cursor: pointer;
+width: 50px;
+height: 50px;
+margin: 0 auto;
+}
+.switch svg{
+    margin: 5px;
+}
+.result button{
+width: 100px;
+font-weight: bold;
+font-size: 20px;
+border: 2px solid #f2c010;
+background-color: rgb(226, 252, 184);
+cursor: pointer;
+background-color: #f2c010;
+border-radius: 5px;
+}
+.currencyPanel p,.currencyPanel h3,.currencyPanel h2,.switch{
+/*color: #f2c010;*/
+color: #fff;
+margin-top: 15px;
+}
+.currencyPanel p{
+font-size: 30px;
+}

@@ -1,0 +1,23 @@
+#root{
+    overflow: hidden;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock-inner{
+    border-radius: 100%;
+    background: #ffffff;
+    font-family: "Montserrat";
+    border: 5px dashed #f2c010;
+    box-shadow: inset 2px 3px 8px 0 rgb(0 0 0 / 10%);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock p{
+    font-size: 30px;
+}
